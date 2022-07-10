@@ -13,7 +13,7 @@ public class AppTest {
 	
 	@Test
 	public void testAssertion1() {
-		assertEquals(estudiante1.calcularEdad(), 24);
+		assertEquals(estudiante1.calcularEdad(), 22);
 	}
 	
 	@Test
