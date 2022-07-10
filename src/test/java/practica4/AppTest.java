@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.*;
 
-public class TestJUnit {
+public class AppTest {
 	
 	String[] asignaturas1 = {"Programacion 2", "Base de datos 2", "Algoritmia"};
 	String[] asignaturas2 = {"Programacion 1", "Fundamentos de los computadores"};
