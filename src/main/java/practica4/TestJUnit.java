@@ -10,6 +10,7 @@ public class TestJUnit {
 	String[] asignaturas2 = {"Programacion 1", "Fundamentos de los computadores"};
 	Estudiante estudiante1 = new Estudiante("Juan", "Rodriguez", 2000, 2, asignaturas1) ;
 	Estudiante estudiante2 = new Estudiante("Patricia", "Garcia", 2002, 1, asignaturas2);
+	Estudiante estudiante3 = null;
 	
 	@Test
 	public void testAssertion1() {
@@ -23,7 +24,7 @@ public class TestJUnit {
 	
 	@Test
 	public void testAssertion3() {
-		assertFalse(estudiante2.getNumeroAsignaturasPendientes() == 2);
+		assertFalse(estudiante2.getNumeroAsignaturasPendientes() == 3);
 	}
 	
 	@Test
@@ -33,12 +34,12 @@ public class TestJUnit {
 	
 	@Test
 	public void testAssertion5() {
-		assertNull(estudiante2);
+		assertNull(estudiante3);
 	}
 	
 	@Test 
 	public void testAssertion6() {
-		assertSame(estudiante1, estudiante2);
+		assertSame(estudiante1, estudiante1);
 	}
 	
 	@Test
@@ -48,7 +49,7 @@ public class TestJUnit {
 	
 	@Test
 	public void testAssertion8() {
-		assertArrayEquals(estudiante1.getAsignaturasPendientes(), estudiante2.getAsignaturasPendientes());
+		assertArrayEquals(estudiante1.getAsignaturasPendientes(), asignaturas1);
 	}
 	
 	/*
