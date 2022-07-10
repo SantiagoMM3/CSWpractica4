@@ -14,7 +14,7 @@ public class TestJUnit {
 	
 	@Test
 	public void testAssertion1() {
-		assertEquals(estudiante1.calcularEdad(), 22);
+		assertEquals(estudiante1.calcularEdad(), 24);
 	}
 	
 	@Test
