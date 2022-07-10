@@ -51,22 +51,5 @@ public class TestJUnit {
 	public void testAssertion8() {
 		assertArrayEquals(estudiante1.getAsignaturasPendientes(), asignaturas1);
 	}
-	
-	/*
-	@Ignore
-	public void testAssertion6() {
-		assertSame(estudiante1, estudiante2);
-	}
-	
-	@Ignore
-	public void testAssertion7() {
-		assertNotSame(estudiante1, estudiante2);
-	}
-	
-	@Before
-	public void testAssertion8() {
-		estudiante1.setFechaNacimiento(1993);
-	}
-	*/
 		
 }
