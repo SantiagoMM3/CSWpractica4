@@ -1,8 +1,7 @@
 package practica4;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest {
 	
@@ -14,7 +13,7 @@ public class AppTest {
 	
 	@Test
 	public void testAssertion1() {
-		assertEquals(estudiante1.calcularEdad(), 24);
+		assertEquals(estudiante1.calcularEdad(), 22);
 	}
 	
 	@Test
